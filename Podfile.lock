@@ -1,0 +1,21 @@
+PODS:
+  - IronSourceSDK (6.13.0.1)
+  - IronSourceVungleAdapter (4.1.8.3):
+    - IronSourceSDK (= 6.13.0.1)
+
+DEPENDENCIES:
+  - IronSourceSDK (= 6.13.0.1)
+  - IronSourceVungleAdapter (= 4.1.8.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IronSourceSDK
+    - IronSourceVungleAdapter
+
+SPEC CHECKSUMS:
+  IronSourceSDK: 1fc8641791e36a43fb089b1c7c9d3bde348111cd
+  IronSourceVungleAdapter: 7705d54957495638b86dd7039c57398f7c7b78d3
+
+PODFILE CHECKSUM: 74de7494c14758933b2f875c545ff5456a1edc4e
+
+COCOAPODS: 1.5.3

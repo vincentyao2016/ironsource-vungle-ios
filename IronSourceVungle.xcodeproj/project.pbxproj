@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27929365A7BF26549180CA45 /* libPods-IronSourceVungleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDBF30FFC5F8031686F1BC5 /* libPods-IronSourceVungleUITests.a */; };
+		624B2490E22D42E54374AA8D /* libPods-IronSourceVungle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF10E8980263C3696A8A20D0 /* libPods-IronSourceVungle.a */; };
+		BF7BAAE523CED4CA002729F3 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7BAAE423CED4CA002729F3 /* Constant.m */; };
+		BF8E26E423CDC8C9005FF531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E26E323CDC8C9005FF531 /* AppDelegate.m */; };
+		BF8E26E723CDC8C9005FF531 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E26E623CDC8C9005FF531 /* SceneDelegate.m */; };
+		BF8E26EA23CDC8C9005FF531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E26E923CDC8C9005FF531 /* ViewController.m */; };
+		BF8E26ED23CDC8C9005FF531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8E26EB23CDC8C9005FF531 /* Main.storyboard */; };
+		BF8E26EF23CDC8C9005FF531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8E26EE23CDC8C9005FF531 /* Assets.xcassets */; };
+		BF8E26F223CDC8C9005FF531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8E26F023CDC8C9005FF531 /* LaunchScreen.storyboard */; };
+		BF8E26F523CDC8C9005FF531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E26F423CDC8C9005FF531 /* main.m */; };
+		BF8E26FF23CDC8CA005FF531 /* IronSourceVungleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E26FE23CDC8CA005FF531 /* IronSourceVungleTests.m */; };
+		BF8E270A23CDC8CA005FF531 /* IronSourceVungleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E270923CDC8CA005FF531 /* IronSourceVungleUITests.m */; };
+		EF8C76B07D5F375219297400 /* libPods-IronSourceVungleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8F8FF5FDBA599406495B63 /* libPods-IronSourceVungleTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF8E26FB23CDC8CA005FF531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8E26D723CDC8C9005FF531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8E26DE23CDC8C9005FF531;
+			remoteInfo = IronSourceVungle;
+		};
+		BF8E270623CDC8CA005FF531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8E26D723CDC8C9005FF531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8E26DE23CDC8C9005FF531;
+			remoteInfo = IronSourceVungle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BAE590C39997C7D5C05680F /* Pods-IronSourceVungleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronSourceVungleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronSourceVungleTests/Pods-IronSourceVungleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B5C63B269218DC0D55A2BDA /* Pods-IronSourceVungleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronSourceVungleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronSourceVungleUITests/Pods-IronSourceVungleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4564F01BE6295E3D755CAC57 /* Pods-IronSourceVungle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronSourceVungle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronSourceVungle/Pods-IronSourceVungle.debug.xcconfig"; sourceTree = "<group>"; };
+		53DF8296653E6A72F57D76A2 /* Pods-IronSourceVungleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronSourceVungleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronSourceVungleTests/Pods-IronSourceVungleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DDBF30FFC5F8031686F1BC5 /* libPods-IronSourceVungleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronSourceVungleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F090026F914AF8A4F67000 /* Pods-IronSourceVungleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronSourceVungleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronSourceVungleUITests/Pods-IronSourceVungleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8939A336D5378ACDA861913C /* Pods-IronSourceVungle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronSourceVungle.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronSourceVungle/Pods-IronSourceVungle.release.xcconfig"; sourceTree = "<group>"; };
+		8F8F8FF5FDBA599406495B63 /* libPods-IronSourceVungleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronSourceVungleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7BAAE323CED4CA002729F3 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		BF7BAAE423CED4CA002729F3 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		BF8E26DF23CDC8C9005FF531 /* IronSourceVungle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronSourceVungle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8E26E223CDC8C9005FF531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF8E26E323CDC8C9005FF531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF8E26E523CDC8C9005FF531 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BF8E26E623CDC8C9005FF531 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BF8E26E823CDC8C9005FF531 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF8E26E923CDC8C9005FF531 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF8E26EC23CDC8C9005FF531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF8E26EE23CDC8C9005FF531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF8E26F123CDC8C9005FF531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF8E26F323CDC8C9005FF531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8E26F423CDC8C9005FF531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF8E26FA23CDC8CA005FF531 /* IronSourceVungleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronSourceVungleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8E26FE23CDC8CA005FF531 /* IronSourceVungleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IronSourceVungleTests.m; sourceTree = "<group>"; };
+		BF8E270023CDC8CA005FF531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8E270523CDC8CA005FF531 /* IronSourceVungleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronSourceVungleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8E270923CDC8CA005FF531 /* IronSourceVungleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IronSourceVungleUITests.m; sourceTree = "<group>"; };
+		BF8E270B23CDC8CA005FF531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF10E8980263C3696A8A20D0 /* libPods-IronSourceVungle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronSourceVungle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8E26DC23CDC8C9005FF531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624B2490E22D42E54374AA8D /* libPods-IronSourceVungle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8E26F723CDC8CA005FF531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8C76B07D5F375219297400 /* libPods-IronSourceVungleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8E270223CDC8CA005FF531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27929365A7BF26549180CA45 /* libPods-IronSourceVungleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D5B84CA6D0493EB056A878F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF10E8980263C3696A8A20D0 /* libPods-IronSourceVungle.a */,
+				8F8F8FF5FDBA599406495B63 /* libPods-IronSourceVungleTests.a */,
+				5DDBF30FFC5F8031686F1BC5 /* libPods-IronSourceVungleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25817F607406A299D13B22E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4564F01BE6295E3D755CAC57 /* Pods-IronSourceVungle.debug.xcconfig */,
+				8939A336D5378ACDA861913C /* Pods-IronSourceVungle.release.xcconfig */,
+				2BAE590C39997C7D5C05680F /* Pods-IronSourceVungleTests.debug.xcconfig */,
+				53DF8296653E6A72F57D76A2 /* Pods-IronSourceVungleTests.release.xcconfig */,
+				75F090026F914AF8A4F67000 /* Pods-IronSourceVungleUITests.debug.xcconfig */,
+				3B5C63B269218DC0D55A2BDA /* Pods-IronSourceVungleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF8E26D623CDC8C9005FF531 = {
+			isa = PBXGroup;
+			children = (
+				BF8E26E123CDC8C9005FF531 /* IronSourceVungle */,
+				BF8E26FD23CDC8CA005FF531 /* IronSourceVungleTests */,
+				BF8E270823CDC8CA005FF531 /* IronSourceVungleUITests */,
+				BF8E26E023CDC8C9005FF531 /* Products */,
+				25817F607406A299D13B22E3 /* Pods */,
+				1D5B84CA6D0493EB056A878F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8E26E023CDC8C9005FF531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8E26DF23CDC8C9005FF531 /* IronSourceVungle.app */,
+				BF8E26FA23CDC8CA005FF531 /* IronSourceVungleTests.xctest */,
+				BF8E270523CDC8CA005FF531 /* IronSourceVungleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8E26E123CDC8C9005FF531 /* IronSourceVungle */ = {
+			isa = PBXGroup;
+			children = (
+				BF7BAAE323CED4CA002729F3 /* Constant.h */,
+				BF7BAAE423CED4CA002729F3 /* Constant.m */,
+				BF8E26E223CDC8C9005FF531 /* AppDelegate.h */,
+				BF8E26E323CDC8C9005FF531 /* AppDelegate.m */,
+				BF8E26E523CDC8C9005FF531 /* SceneDelegate.h */,
+				BF8E26E623CDC8C9005FF531 /* SceneDelegate.m */,
+				BF8E26E823CDC8C9005FF531 /* ViewController.h */,
+				BF8E26E923CDC8C9005FF531 /* ViewController.m */,
+				BF8E26EB23CDC8C9005FF531 /* Main.storyboard */,
+				BF8E26EE23CDC8C9005FF531 /* Assets.xcassets */,
+				BF8E26F023CDC8C9005FF531 /* LaunchScreen.storyboard */,
+				BF8E26F323CDC8C9005FF531 /* Info.plist */,
+				BF8E26F423CDC8C9005FF531 /* main.m */,
+			);
+			path = IronSourceVungle;
+			sourceTree = "<group>";
+		};
+		BF8E26FD23CDC8CA005FF531 /* IronSourceVungleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8E26FE23CDC8CA005FF531 /* IronSourceVungleTests.m */,
+				BF8E270023CDC8CA005FF531 /* Info.plist */,
+			);
+			path = IronSourceVungleTests;
+			sourceTree = "<group>";
+		};
+		BF8E270823CDC8CA005FF531 /* IronSourceVungleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8E270923CDC8CA005FF531 /* IronSourceVungleUITests.m */,
+				BF8E270B23CDC8CA005FF531 /* Info.plist */,
+			);
+			path = IronSourceVungleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8E26DE23CDC8C9005FF531 /* IronSourceVungle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8E270E23CDC8CA005FF531 /* Build configuration list for PBXNativeTarget "IronSourceVungle" */;
+			buildPhases = (
+				58193A390F9DE9CF60EE9F70 /* [CP] Check Pods Manifest.lock */,
+				BF8E26DB23CDC8C9005FF531 /* Sources */,
+				BF8E26DC23CDC8C9005FF531 /* Frameworks */,
+				BF8E26DD23CDC8C9005FF531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronSourceVungle;
+			productName = IronSourceVungle;
+			productReference = BF8E26DF23CDC8C9005FF531 /* IronSourceVungle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF8E26F923CDC8CA005FF531 /* IronSourceVungleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8E271123CDC8CA005FF531 /* Build configuration list for PBXNativeTarget "IronSourceVungleTests" */;
+			buildPhases = (
+				13D0940888F9E0A5BF3ED97C /* [CP] Check Pods Manifest.lock */,
+				BF8E26F623CDC8CA005FF531 /* Sources */,
+				BF8E26F723CDC8CA005FF531 /* Frameworks */,
+				BF8E26F823CDC8CA005FF531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8E26FC23CDC8CA005FF531 /* PBXTargetDependency */,
+			);
+			name = IronSourceVungleTests;
+			productName = IronSourceVungleTests;
+			productReference = BF8E26FA23CDC8CA005FF531 /* IronSourceVungleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF8E270423CDC8CA005FF531 /* IronSourceVungleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8E271423CDC8CA005FF531 /* Build configuration list for PBXNativeTarget "IronSourceVungleUITests" */;
+			buildPhases = (
+				0CC2287ACDC24FEE480CC72E /* [CP] Check Pods Manifest.lock */,
+				BF8E270123CDC8CA005FF531 /* Sources */,
+				BF8E270223CDC8CA005FF531 /* Frameworks */,
+				BF8E270323CDC8CA005FF531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8E270723CDC8CA005FF531 /* PBXTargetDependency */,
+			);
+			name = IronSourceVungleUITests;
+			productName = IronSourceVungleUITests;
+			productReference = BF8E270523CDC8CA005FF531 /* IronSourceVungleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8E26D723CDC8C9005FF531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Vincent;
+				TargetAttributes = {
+					BF8E26DE23CDC8C9005FF531 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BF8E26F923CDC8CA005FF531 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BF8E26DE23CDC8C9005FF531;
+					};
+					BF8E270423CDC8CA005FF531 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BF8E26DE23CDC8C9005FF531;
+					};
+				};
+			};
+			buildConfigurationList = BF8E26DA23CDC8C9005FF531 /* Build configuration list for PBXProject "IronSourceVungle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF8E26D623CDC8C9005FF531;
+			productRefGroup = BF8E26E023CDC8C9005FF531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8E26DE23CDC8C9005FF531 /* IronSourceVungle */,
+				BF8E26F923CDC8CA005FF531 /* IronSourceVungleTests */,
+				BF8E270423CDC8CA005FF531 /* IronSourceVungleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8E26DD23CDC8C9005FF531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8E26F223CDC8C9005FF531 /* LaunchScreen.storyboard in Resources */,
+				BF8E26EF23CDC8C9005FF531 /* Assets.xcassets in Resources */,
+				BF8E26ED23CDC8C9005FF531 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8E26F823CDC8CA005FF531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8E270323CDC8CA005FF531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC2287ACDC24FEE480CC72E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IronSourceVungleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D0940888F9E0A5BF3ED97C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IronSourceVungleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58193A390F9DE9CF60EE9F70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IronSourceVungle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8E26DB23CDC8C9005FF531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8E26EA23CDC8C9005FF531 /* ViewController.m in Sources */,
+				BF8E26E423CDC8C9005FF531 /* AppDelegate.m in Sources */,
+				BF8E26F523CDC8C9005FF531 /* main.m in Sources */,
+				BF7BAAE523CED4CA002729F3 /* Constant.m in Sources */,
+				BF8E26E723CDC8C9005FF531 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8E26F623CDC8CA005FF531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8E26FF23CDC8CA005FF531 /* IronSourceVungleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8E270123CDC8CA005FF531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8E270A23CDC8CA005FF531 /* IronSourceVungleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF8E26FC23CDC8CA005FF531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8E26DE23CDC8C9005FF531 /* IronSourceVungle */;
+			targetProxy = BF8E26FB23CDC8CA005FF531 /* PBXContainerItemProxy */;
+		};
+		BF8E270723CDC8CA005FF531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8E26DE23CDC8C9005FF531 /* IronSourceVungle */;
+			targetProxy = BF8E270623CDC8CA005FF531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF8E26EB23CDC8C9005FF531 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8E26EC23CDC8C9005FF531 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF8E26F023CDC8C9005FF531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8E26F123CDC8C9005FF531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8E270C23CDC8CA005FF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF8E270D23CDC8CA005FF531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8E270F23CDC8CA005FF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4564F01BE6295E3D755CAC57 /* Pods-IronSourceVungle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronSourceVungle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.IronSourceVungle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF8E271023CDC8CA005FF531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8939A336D5378ACDA861913C /* Pods-IronSourceVungle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronSourceVungle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.IronSourceVungle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF8E271223CDC8CA005FF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BAE590C39997C7D5C05680F /* Pods-IronSourceVungleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronSourceVungleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.IronSourceVungleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronSourceVungle.app/IronSourceVungle";
+			};
+			name = Debug;
+		};
+		BF8E271323CDC8CA005FF531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53DF8296653E6A72F57D76A2 /* Pods-IronSourceVungleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronSourceVungleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.IronSourceVungleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronSourceVungle.app/IronSourceVungle";
+			};
+			name = Release;
+		};
+		BF8E271523CDC8CA005FF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F090026F914AF8A4F67000 /* Pods-IronSourceVungleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronSourceVungleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.IronSourceVungleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IronSourceVungle;
+			};
+			name = Debug;
+		};
+		BF8E271623CDC8CA005FF531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5C63B269218DC0D55A2BDA /* Pods-IronSourceVungleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronSourceVungleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.IronSourceVungleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IronSourceVungle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8E26DA23CDC8C9005FF531 /* Build configuration list for PBXProject "IronSourceVungle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8E270C23CDC8CA005FF531 /* Debug */,
+				BF8E270D23CDC8CA005FF531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8E270E23CDC8CA005FF531 /* Build configuration list for PBXNativeTarget "IronSourceVungle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8E270F23CDC8CA005FF531 /* Debug */,
+				BF8E271023CDC8CA005FF531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8E271123CDC8CA005FF531 /* Build configuration list for PBXNativeTarget "IronSourceVungleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8E271223CDC8CA005FF531 /* Debug */,
+				BF8E271323CDC8CA005FF531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8E271423CDC8CA005FF531 /* Build configuration list for PBXNativeTarget "IronSourceVungleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8E271523CDC8CA005FF531 /* Debug */,
+				BF8E271623CDC8CA005FF531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8E26D723CDC8C9005FF531 /* Project object */;
+}
